@@ -90,7 +90,7 @@ nav a:hover {
 
 body {
     font-family: "Fira Sans";
-    //background-color: #F0ECEE;
+    /*background-color: #F0ECEE;*/
     margin: 20px 20px;
 }
 
@@ -103,7 +103,7 @@ body {
     }
 .main > .pbutton {
         flex: 1 100%;
-    //align-items: baseline;
+    /*align-items: baseline;*/
     }
 /*======================================================================*/
 
@@ -119,7 +119,7 @@ body {
 }
     .r-nav{
         display: flex;        
-        //justify-content: flex-start;
+        /*justify-content: flex-start;*/
         font-weight: 300;
 }
 li > #container-button{

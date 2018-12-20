@@ -59,7 +59,7 @@ li {
 }
 #container-button:hover {
     background-color: #CCC;
-    color: #88898B;
+    color: #FF4850;
 }
 
 .pbutton {
@@ -72,7 +72,7 @@ li {
 }
 .pbutton:hover {
     background-color: #CCC;
-    color: #88898B;
+    color: #FF4850;
 }
 
 
@@ -126,10 +126,10 @@ body {
     font-weight: 300;
 
 }
-    .r-nav{
-        display: flex;        
-        //justify-content: flex-start;
-        font-weight: 300;
+.r-nav{
+    display: flex;        
+    /*justify-content: flex-start;*/
+    font-weight: 300;
 }
 li > #container-button{
     display: flex;
@@ -141,6 +141,23 @@ li > #container-button{
     flex-wrap: wrap;
     width: 40%;
     margin: 30px;
-    
+ }
+#container-button {
+    background-color: #FF4850;
+    padding: 10px;
+    border-radius:15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    width: 100%;
 }
-}
+
+.pbutton {
+    background-color: #FF4850;
+    padding: 10px;
+    border-radius:15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    width: 100%;
+    }

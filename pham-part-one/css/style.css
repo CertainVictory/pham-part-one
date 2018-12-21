@@ -87,13 +87,10 @@ nav a:hover {
     text-decoration: none;
 }
 
-
 body {
     font-family: "Fira Sans";
-    //background-color: #F0ECEE;
     margin: 20px 20px;
 }
-
 
 .main > h1 {
         flex: 1 100%;
@@ -103,7 +100,6 @@ body {
     }
 .main > .pbutton {
         flex: 1 100%;
-    //align-items: baseline;
     }
 /*======================================================================*/
 
@@ -131,11 +127,6 @@ body {
     /*justify-content: flex-start;*/
     font-weight: 300;
 }
-li > #container-button{
-    display: flex;
-    align-items: center;
-}
-
     .main {
     display: flex;
     flex-wrap: wrap;
@@ -143,22 +134,10 @@ li > #container-button{
     margin: 30px;
  }
 #container-button {
-    background-color: #FF4850;
-    padding: 10px;
-    border-radius:15px;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 600;
-    width: 100%;
+    width: auto;
 }
 
 .pbutton {
-    background-color: #FF4850;
-    padding: 10px;
-    border-radius:15px;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 600;
-    width: 100%;
+    width: auto;
     }
 }

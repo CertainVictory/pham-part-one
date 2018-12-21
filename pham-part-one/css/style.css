@@ -106,37 +106,36 @@ body {
 @media all and (min-width: 768px) {
    
     html {
-    background: url(bulldog.jpg) no-repeat;
-    position: relative;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
-    background-color: #F0ECEE;
+        background: url(bulldog.jpg) no-repeat;
+        position: relative;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+        background-color: #F0ECEE;
 }
     .header-container {
-    display: flex;
-    /*width: auto;*/
-    margin: 30px;
-    align-items: baseline;
-    justify-content: space-between;
-    font-weight: 300;
+        display: flex;
+        margin: 30px;
+        align-items: baseline;
+        justify-content: space-between;
+        font-weight: 300;
 
 }
-.r-nav{
-    display: flex;
-    font-weight: 300;
+    .r-nav{
+        display: flex;        
+        font-weight: 300;
 }
     .main {
-    display: flex;
-    flex-wrap: wrap;
-    width: 40%;
-    margin: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+        margin: 30px;
  }
-#container-button {
-    width: auto;
+    #container-button {
+        width: auto;
 }
 
-.pbutton {
-    width: auto;
+    .pbutton {
+        width: auto;
     }
 }
